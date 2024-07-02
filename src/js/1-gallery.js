@@ -81,13 +81,13 @@ function createMarkup(arr) {
     .join('');
 }
 gallery.insertAdjacentHTML('afterbegin', createMarkup(images));
-let gallaryshow = new Simplelightbox('.gallery a', {
+let galleryshow = new Simplelightbox('.gallery a', {
   captions: true,
   captionType: 'attr',
   captionsData: 'alt',
   captionPosition: 'bottom',
   captionDelay: 250,
 });
-gallaryshow.on('show.simpleLightbox', function (images) {
+galleryshow.on('show.simpleLightbox', function (images) {
   return;
 });

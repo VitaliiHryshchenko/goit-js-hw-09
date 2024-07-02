@@ -1,0 +1,67 @@
+.feedback-form {
+  width: 408px;
+  height: 296px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+  box-shadow: 0 10px 10px 0 #cccccc;
+  outline: none;
+}
+.js-input-form-email {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 8px;
+  padding-left: 15px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+.js-textarea-form-massage {
+  width: 100%;
+  height: 80px;
+  padding: 15px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  resize: none;
+  outline: none;
+}
+.js-form-btn {
+  width: 95px;
+  height: 40px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+.text-label {
+  width: 75px;
+  height: 24px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.js-input-form-email:hover,
+.js-textarea-form-massage:hover {
+  border: 1px solid #000000;
+}
+.js-input-form-email:active,
+.js-textarea-form-massage:active {
+  border: 1px solid #808080;
+}
+
+.js-form-btn:hover,
+.js-form-btn:focus {
+  background-color: #6c8cff;
+}
